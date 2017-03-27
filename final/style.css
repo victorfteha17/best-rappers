@@ -1,0 +1,133 @@
+.home-h1 {
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif
+}
+
+.songs-p {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+.other-h1 {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+body {
+    background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Rough-Grey-Tilable-Pattern-For-Website-Background.jpg");
+    padding-bottom: 130px;
+}
+
+.video {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lines-p {
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    font-size: 20px;
+}
+
+/*-------------------------------------------------*/
+
+.album {
+  opacity:1;
+}
+
+.album:hover {
+  opacity:.6;
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+  -ms-transition: opacity .2s ease-out;
+  
+  transform:scale(1.01);
+  -webkit-transform:scale(1.01); /* Safari and Chrome */
+  -moz-transform:scale(1.01); /* Firefox */
+  -ms-transform:scale(1.01); /* IE 9 */
+  -o-transform:scale(1.01); /* Opera */
+}
+
+/*-------------------------------------------------*/
+
+.imgWrap {
+  position: relative;
+  opacity:1;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: center;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s;
+  -moz-transition: opacity 2s;
+  -ms-transition: opacity 2s;
+  -o-transition: opacity 2s;
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+.imgWrap:hover {
+  opacity:.5;
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+  -ms-transition: opacity .2s ease-out;
+  
+  transform:scale(1.01);
+  -webkit-transform:scale(1.01); /* Safari and Chrome */
+  -moz-transform:scale(1.01); /* Firefox */
+  -ms-transform:scale(1.01); /* IE 9 */
+  -o-transform:scale(1.01); /* Opera */
+}
+
+.span {
+    margin-right: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+/*-------------------------------------------------
+
+.outline {
+    outline: 10px solid white;
+}
+
+.outline2 {
+    outline: 0 10px 0 0 double white;
+}
+
+.outline3 {
+    outline: 0 0 10px 0 double white;
+}
+
+*/
